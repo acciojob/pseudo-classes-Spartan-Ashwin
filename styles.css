@@ -8,8 +8,11 @@ html{
 	background-color:black;
 }
 
+
 .para3{
 	color:red;
 }
 
-
+li{
+	padding:"10px";
+}
