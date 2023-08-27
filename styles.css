@@ -1,15 +1,40 @@
 /*  your css code here. If applicable */
-html{
+
+:root{
 	background-color:rgb(135, 206, 235);
 }
 
-.para1{
+article p:first-child{
 	color:white;
 	background-color:black;
 }
 
+article p:nth-child(2){
+	
+}
 
-.para3{
+article p:last-child{
 	color:red;
 }
 
+li{
+	background-color:gray;
+	width:50%;
+	padding:10px;
+}
+
+li:nth-child(2n+1){
+	background-color:white;
+}
+
+li:first-child{
+	font-size:22px;
+}
+
+li:last-child{
+	font-size:22px;
+}
+
+li:nth-child(3){
+	background-color:pink;
+}
